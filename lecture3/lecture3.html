@@ -1,126 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello my name is</title>
+    <title>EC569 Economic Growth</title>
     <meta charset="utf-8">
-    <meta name="author" content="Your name here" />
+    <meta name="author" content="Ilhan Guner" />
     <meta name="date" content="2019-01-26" />
-    <link href="lecture3_files/remark-css/default.css" rel="stylesheet" />
-    <link href="lecture3_files/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="lecture3_files/remark-css/hygge.css" rel="stylesheet" />
+    <link href="lecture3_files/remark-css/hygge.css" rel="stylesheet" />
+    <link href="lecture3_files/remark-css/metropolis-fonts.css" rel="stylesheet" />
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Hello my name is <yournamehere>
-### Your name here
+# EC569 Economic Growth
+## Population and Economic Growth <br> Lecture 3
+### Ilhan Guner
 ### 2019-01-26
 
 ---
 
 
-&lt;!-- edit name1 and name2 in the YAML above --&gt;
+class: left, top
+
+## Impact of population on economic growth ##
+
+&amp;nbsp;
+
+&amp;nbsp;
 
 
 
+`\(\Delta\)` population `\(\Rightarrow\)`
 
-```r
-# optional package installs if you want to do more below
-install.packages("leaflet")
-```
+* consumption needs of the economy (the number of mouths)
+* productive capacity of the economy (the number of hands)
 
+---
+## Relationship Between Income per Capita and Population Growth ##
+.center[![Image of Momtocat](img/figure1.pdf)]
+---
+background-image: url(http://bit.ly/arm-greens)
+background-size: cover
 
-&lt;!-- introduce yourself here --&gt;
-
-Hello my name is Your name here!
-
-Say something about what you do, what you use R Markdown for, your favorite R package, etc.
-
-&lt;!-- include an image here, if you have a GitHub account use your profile pic! --&gt;
-
-![](https://github.com/USERNAME.png)&lt;!-- --&gt;
-
-
-
-&lt;!-- we make the data here --&gt;
-
-
-```r
-# getting the data
-namedata &lt;- babynames %&gt;%
-  filter(name == params$name1 | 
-           name == params$name2) %&gt;% 
-  filter(sex == "F") 
-```
-
-&lt;!-- get and see top years for each name --&gt;
-
-
-```r
-topyears &lt;- namedata %&gt;% 
-  group_by(name) %&gt;% 
-  top_n(1, prop) 
-```
-
-
-
-```r
-topyears %&gt;% 
-  filter(name == params$name1)
-```
-
-```
-## # A tibble: 1 x 5
-## # Groups:   name [1]
-##    year sex   name       n    prop
-##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;  &lt;int&gt;   &lt;dbl&gt;
-## 1  1979 F     Alison  2936 0.00170
-```
-
-
-
-```r
-topyears %&gt;% 
-  filter(name == params$name2)
-```
-
-```
-## # A tibble: 1 x 5
-## # Groups:   name [1]
-##    year sex   name        n    prop
-##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;   &lt;int&gt;   &lt;dbl&gt;
-## 1  1995 F     Allison  8126 0.00423
-```
-
-
-&lt;!-- plot name popularity over time --&gt;
-
-
-
-```r
-ggplot(namedata, 
-  aes(x = year, 
-      y = prop,  
-      group = name, 
-      color = name)) + 
-  geom_line() 
-```
-
-![](lecture3_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
-
-
-&lt;!-- where are you from? --&gt;
-
-
-
-```r
-# erase this chunk option if you want to include a map
-library(leaflet)
-leaflet() %&gt;% addTiles() %&gt;% setView(lat = 30.2621, lng = -97.7382, zoom = 17)
-```
+---
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create();
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true
+});
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
