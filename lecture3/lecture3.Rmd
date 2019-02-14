@@ -5,12 +5,10 @@ author: "Ilhan Guner"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-    css: [hygge, hygge, metropolis-fonts]
     nature:
       highlightStyle: github
       highlightLines: true
 ---
-
 class: left, top
 
 ## Impact of population on economic growth ##
@@ -30,8 +28,15 @@ $\Delta$ population $\Rightarrow$
 ## Relationship Between Income per Capita and Population Growth ##
 .center[![Image of Momtocat](img/figure1.pdf)]
 ---
-background-image: url(http://bit.ly/arm-greens)
-background-size: cover
+
+.pull-left[
+<iframe width="360" height="550" src="p.html" frameborder="0" allowfullscreen></iframe>
+]
+.pull-right[
+Kyrie v Steph: Who is the best ball handler?
+]
 
 ---
+<iframe width="360" height="550" src="z.html" frameborder="0" allowfullscreen></iframe>
+
 
