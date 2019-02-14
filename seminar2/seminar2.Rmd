@@ -34,11 +34,12 @@ Use the 'Weil Data' dataset on Moodle to make a scatter plot of average years in
 
 ---
 
+
 class: left, top
 ## Question 1, answer ##
 
 <center>
-<img src="img/seminar2-q1.pdf" width="80%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/seminar2-q1.pdf" width="80%"/>
 </center>
 
 Correlation $\approx$ 0.76
@@ -81,12 +82,13 @@ Barro, Robert J. 'Human capital and growth.' American economic review 91, no. 2 
  * lagged values of other variables
 
 ---
+name: schooling
 
 .pull-left[
-<img src="img/table1.pdf" width="100%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/table1.pdf" width="100%"/>
 ]
 .pull-right[
-<img src="img/table1-notes.pdf" width="100%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/table1-notes.pdf" width="100%"/>
 ]
 
 ---
@@ -102,14 +104,14 @@ Barro, Robert J. 'Human capital and growth.' American economic review 91, no. 2 
  
  * Marginal effect for US in 1995 ($18,915 in 1985 prices) is -.058.
  
- * 10% increase in GDP (US marginal effect) $\Rightarrow$ .6% decrease in growth rate
+ * 10% increase in GDP (US marginal effect) $\Rightarrow$ 0.6% decrease in growth rate
 
 ---
 
 ### Relationship Between GDP growth rate and initial GDP ###
 
 <center>
-<img src="img/figure1.pdf" width="50%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/figure1.pdf" width="50%"/>
 </center>
 ---
 
@@ -141,7 +143,7 @@ Barro, Robert J. 'Human capital and growth.' American economic review 91, no. 2 
 ### Inflation rate ###
 
 * Marginally significant, negative effect
-* 10\% percentage point increase in inflation reduces growth rate on impact by 0.14\% per year.
+* 10% percentage point increase in inflation reduces growth rate on impact by 0.14% per year.
 
 ---
 ###  Fertility rate ###
@@ -170,7 +172,7 @@ human capital / physical capital
  * Adjusting upward the quantity of physical capital (since human capital is harder to adjust)
 
 * Statistically significant and positive effect
-* An additional year of schooling $\Rightarrow$ growth rate goes up by 0.44\% per year on impact 
+* An additional year of schooling $\Rightarrow$ growth rate goes up by 0.44% per year on impact 
 
 
 ---
@@ -180,7 +182,7 @@ human capital / physical capital
 ### Relationship Between GDP growth rate and years of schooling ###
 
 <center>
-<img src="img/figure2.pdf" width="50%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/figure2.pdf" width="50%"/>
 </center>
 ---
 
@@ -203,22 +205,29 @@ human capital / physical capital
  * $\Rightarrow$ lower fertility $\Rightarrow$ higher growth
 
 ---
+class: middle, center
+
+<iframe width="560" height="650" src="https://gunerilhan.github.io/img/seminar2/fertility.html" frameborder="0" allowfullscreen></iframe>
+
+---
+
+
 
 ### Quality of Schooling 
 
 * Scores on international examinations matter more than years of attainment on economic growth (Hanusbek and Kimko (2000))
 
 .pull-left[
-<img src="img/table2a.pdf" width="100%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/table2a.pdf" width="100%"/>
 ]
 .pull-right[
-<img src="img/table2b.pdf" width="100%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/table2b.pdf" width="100%"/>
 ]
 
 ---
 class: middle, center 
 <center>
-<img src="img/table2-notes.pdf" width="50%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/table2-notes.pdf" width="50%"/>
 </center>
 
 ---
@@ -229,7 +238,7 @@ class: middle, center
 
  * Statistically significant and positive
 
- * One standard deviation increase in scores (by .08) $\Rightarrow$ 1\% percent increase in growth on impact
+ * One standard deviation increase in scores (by .08) $\Rightarrow$ 1% percent increase in growth on impact
 
  * Male schooling is marginally significant (?)
 
@@ -246,7 +255,7 @@ class: middle, center
 ### Test scores on growth rate ###
 
 <center>
-<img src="img/figure3.pdf" width="60%"/>
+<img src="https://gunerilhan.github.io/img/seminar2/figure3.pdf" width="60%"/>
 </center>
 
 ---
@@ -265,4 +274,8 @@ What are the policy implications of Barro (2001)?
 ---
 class: middle, center
 
-![thank you](https://media.giphy.com/media/j5IdWWOAYzcli/giphy.gif)
+# Thank you! #
+
+
+
+
